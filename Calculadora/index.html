@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculadora Aritmética</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+
+  </style>
+</head>
+<body>
+  <div class="calculadora">
+    <h2>Calculadora JS</h2>
+    <input type="number" id="valor1" placeholder="Digite o primeiro número" />
+    <input type="number" id="valor2" placeholder="Digite o segundo número" />
+    <select id="operador">
+      <option value="+">Soma (+)</option>
+      <option value="-">Subtração (-)</option>
+      <option value="*">Multiplicação (*)</option>
+      <option value="/">Divisão (/)</option>
+      <option value="%">Resto (%)</option>
+      <option value="**">Potência (**)</option>
+    </select>
+    <button onclick="calcular()">Calcular</button>
+    <div id="resultado"></div>
+  </div>
+  <script src="calculadora.js"></script>
+</body>
+</html>
